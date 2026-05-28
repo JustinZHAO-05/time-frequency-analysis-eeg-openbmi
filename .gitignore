@@ -1,0 +1,42 @@
+# Local environments and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Raw teaching dataset, including the large OpenBMI .mat file
+实验三-教学使用/
+data/raw/
+*.mat
+
+# LaTeX build products
+report/*.aux
+report/*.fls
+report/*.fdb_latexmk
+report/*.log
+report/*.out
+report/*.toc
+report/*.xdv
+report/main.pdf
+report/main_en.pdf
+report/main.tex
+
+# Private Chinese submission/report artifacts
+实验三_时频分析_实验报告.pdf
+scripts/report_writer.py
+scripts/build_report.py
+scripts/run_all.py
+README_SUBMISSION.md
+实验三 - 时频分析.docx
+
+# Heavy or local-only generated artifacts
+results/figures/
+results/cache/
+results/rendered_pages/
+dist/
+submission_package/
+tmp/
+*.zip
+
+# OS/editor noise
+Thumbs.db
+.DS_Store

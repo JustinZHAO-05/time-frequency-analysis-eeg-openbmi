@@ -1,0 +1,8 @@
+{
+  "x2_ridge_mae_hz": 0.06059972426470625,
+  "x2_ridge_rmse_hz": 0.07039342514179849,
+  "stft_window_samples": 125,
+  "stft_hop_samples": 13,
+  "stft_actual_window_s": 0.5,
+  "stft_actual_hop_s": 0.052
+}

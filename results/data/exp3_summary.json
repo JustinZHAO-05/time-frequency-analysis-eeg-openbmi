@@ -1,0 +1,43 @@
+{
+  "cwt_wavelet": "cmor1.5-1.0",
+  "dwt_wavelet": "sym6",
+  "dwt_level": 6,
+  "frequency_note": "任务书中 xMRA 公式含 12 Hz；若文字处出现 142Hz，按公式解释为 12 Hz。",
+  "bands": [
+    {
+      "component": "A6",
+      "f_low_hz": 0.0,
+      "f_high_hz": 1.953125
+    },
+    {
+      "component": "D6",
+      "f_low_hz": 1.953125,
+      "f_high_hz": 3.90625
+    },
+    {
+      "component": "D5",
+      "f_low_hz": 3.90625,
+      "f_high_hz": 7.8125
+    },
+    {
+      "component": "D4",
+      "f_low_hz": 7.8125,
+      "f_high_hz": 15.625
+    },
+    {
+      "component": "D3",
+      "f_low_hz": 15.625,
+      "f_high_hz": 31.25
+    },
+    {
+      "component": "D2",
+      "f_low_hz": 31.25,
+      "f_high_hz": 62.5
+    },
+    {
+      "component": "D1",
+      "f_low_hz": 62.5,
+      "f_high_hz": 125.0
+    }
+  ]
+}

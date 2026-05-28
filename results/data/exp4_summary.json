@@ -1,0 +1,33 @@
+{
+  "mat_file": "D:\\Study\\MedicalSignal\\Experiment_3\\实验三-教学使用\\s3\\sess01_subj03_EEG_MI.mat",
+  "epochs_total": 200,
+  "epoch_start_s": -1.0,
+  "epoch_end_s": 4.0,
+  "baseline_s": [
+    -0.8,
+    -0.2
+  ],
+  "task_window_s": [
+    0.5,
+    3.5
+  ],
+  "freqs_hz": [
+    2.0,
+    45.0
+  ],
+  "cwt_wavelet": "cmor1.5-1.0",
+  "selected_channels": [
+    "C3",
+    "C4",
+    "Cz",
+    "FC3",
+    "FC4",
+    "CP3",
+    "CP4"
+  ],
+  "condition_counts": {
+    "left": 100,
+    "right": 100
+  },
+  "quality_high_p2p_over_300": 0
+}

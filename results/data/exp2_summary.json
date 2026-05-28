@@ -1,0 +1,9 @@
+{
+  "x3_formula": "sin(2*pi*10*t)+0.8*I[1.2,2.2)*sin(2*pi*12*t)+1.2*I[2.6,2.9)*sin(2*pi*35*t)",
+  "window_lengths": [
+    0.252,
+    0.5,
+    1.0
+  ],
+  "hop_for_0.05_s_request": 0.052
+}
