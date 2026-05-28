@@ -603,7 +603,7 @@ The project outputs include PNG figures in \texttt{{results/figures}} and \textt
 \begin{{lstlisting}}[language=bash]
 uv venv --python 3.12 .venv
 uv pip install -r requirements.txt
-.venv\Scripts\python scripts\run_all.py --all
+.venv\Scripts\python scripts\run_all_public.py
 .venv\Scripts\python scripts\english_figures.py
 .venv\Scripts\python scripts\report_writer_en.py
 .venv\Scripts\python scripts\build_report_en.py
